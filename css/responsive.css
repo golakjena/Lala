@@ -1,0 +1,82 @@
+@media (min-width:320px) and (max-width:767px){
+	.header{ background: url(../images/headerBg.jpg) 0 0 no-repeat; background-size: cover; padding: 10px 0;}
+	.mLogo{ display: block; }
+	.btnMobileNav{ display: block; }
+	.topNav li{ margin: 0 5px; }
+	.topNav li.logo{ display: none; }
+	.logo a{ width: 100px; }
+	
+	.topNav{ width: 100%; height: 100%; position: fixed; right: 0; top: 73px; background: #0E152B; z-index: 999; display: none; padding: 20px 0 0 0;}
+	.topNav li{ display: block; margin:0;}
+	.topNav li a{ display: block; padding: 10px 0;}
+
+	.homeContent{ margin-top: 120px; padding: 0 15px;}
+	.homeContent h2{ font-size: 32px; }
+	.tileCont{ padding: 50px 0; }
+	.tile{ width: 100%; margin:0 0 20px 0; }
+	.tileLeft{ width: 110px; height: 100%;}
+	.tileLeft img{ height: 100%;}
+	.tileRight{ padding: 10px; }
+	.content{ margin: 70px 0 0 0; padding: 30px 0 0 0; }
+	.bxPortfolio{ max-width: 300px; margin: 0 auto; margin-bottom: 30px;}
+	.hotelDesc{ padding: 15px; }
+	.hotelDescInner{ min-height: auto; }
+	.hotelDesc h4{ font-size: 18px; }
+	.title{ font-size: 28px; }
+	.teamLeft{ width: 100%; padding: 15px; margin: 0 0 30px 0; }
+	.teamName h4{ font-size: 18px; }
+	.teamRight{ display: none; }
+	.pipelineLeft{ width: 100%; margin:0; float: left;}
+	.pipelineLeft img{ width: 100%;}
+	.pipelineRight{ overflow: visible; width: 100%; padding: 15px; float: left;}
+	.pipelineRight h3{ font-size: 20px; line-height: 30px; }
+	.pipelineRight p{ font-size: 16px; line-height: 24px; padding: 0 0 20px 0;}
+	.border{ margin:0 0 30px 0; }
+	.careerOuter h4{ font-size: 22px; padding: 0 0 30px 0; }
+	.positionList li{ font-size: 18px; }
+	.positionList li a{ padding: 15px 0; width: 215px; }
+	.mapOuter{ margin: 70px 0 0 0; }
+	.mapHeading h3{ font-size: 28px; }
+	.mapHeading{ padding: 30px 0; }
+	.getInTouch{ padding: 30px 15px; }
+	.topAddress h3{ font-size: 20px; }
+	.topAddress h4{ font-size: 16px; line-height: 24px; }
+	.addrCol{ width: 100%; float: left; margin:0 0 30px 0; border-bottom: 1px #2f3959 solid;}
+	.logoCont{ width: 100%; float: left; margin:0 0 15px 0;}
+	.addr{ width: 100%; float: left; overflow: visible; text-align: center;}
+	.addrRow{ margin:0; }
+
+
+	.footer{ padding:10px 0 0 0; background: #050915; }
+	.footNav{ display: none; }
+	.footer p{ width: 100%; text-align: center; padding: 0 0 10px 0; }
+
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+	.header{ background: url(../images/headerBg.jpg) 0 0 no-repeat; background-size: cover; }
+	.logo{ margin:0 10px; }	
+	.topNav li{ margin: 0 5px; }
+	.logo a{ width: 150px; }
+	.homeContent{ margin-top: 190px; padding: 0 15px;}
+	.tile{ width: 346px; margin:0 10px 20px 10px; }
+	.teamLeft{ width: 300px; padding: 15px; margin: 0 30px 0 0; }
+	.pipelineLeft{ width: 100%; margin:0; float: left;}
+	.pipelineLeft img{ width: 100%;}
+	.pipelineRight{ overflow: visible; width: 100%; padding: 20px; float: left;}
+	.positionList li{ font-size: 18px; }
+	.positionList li a{ padding: 15px 0; width: 215px; }
+	.getInTouch{ padding: 50px 0; }
+	.addrCol{ width: 100%; float: left; margin:0 0 30px 0; }
+	.addrRow{ margin:0; }
+
+
+	.footer{ padding: 20px 15px; }
+
+}
+
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+	.hotelDescInner{ min-height: 160px; }
+}
+
